@@ -156,16 +156,26 @@ hr {
 
 #times-cover h2 {
     font-size: 200%;
+    padding-bottom: 15px;
+    text-align: center;
+    border-bottom: 1px solid #C22303;
 }
 
 #times-cover {
     width: 400px;
     height: 400px;
     background-color: rgba(0, 0, 0, .8);
-    padding: 40px 0 0 40px;
+    padding: 40px 0 0 0;
     position: absolute;
     bottom: 100px;
     right: 100px;
 
+}
+
+#times-cover p {
+    text-align: center;
+    padding: 40px 50px 10px 50px;
+
+    font-size: 120%;
 }
 
