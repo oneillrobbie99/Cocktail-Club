@@ -92,8 +92,29 @@ h1, h2 {
 
 /* About us section*/
 
-#about-us-list {
-    text-align: center;
+#about-us {
+    height: 600px;
+}
+
+#about-us-left {
+    padding-top: 20px;
+    width: 33%;
+    float: left;
+    background-color: blueviolet;
+}
+
+#about-us-right {
+    padding-top: 20px;
+    width: 33%;
+    float: right;
+    background-color: burlywood;
+
+}
+
+#about-us-center {
+    padding-top: 20px;
+    width: 33%;
+    margin: 0 auto;
 }
 
 hr {
