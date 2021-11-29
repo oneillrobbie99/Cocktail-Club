@@ -201,7 +201,28 @@ hr {
 
 /* Footer */
 
+.socials {
+    text-align: center;
+}
 
+footer {
+    height: 180px;
+}
+
+.socials > li {
+    display: inline;
+}
+
+.socials i {
+    font-size: 180%;
+    margin: 1%;
+    padding: 6%;
+    color: #D9DCE1;
+}
+
+.socials i:hover {
+    color: #C22303;
+}
 
 
 
