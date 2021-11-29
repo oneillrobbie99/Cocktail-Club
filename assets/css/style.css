@@ -69,4 +69,23 @@ h1, h2 {
     background: url(../images/nikita-tikhomirov-bxT82IUY_H8-unsplash.jpg) no-repeat center center;
     height: 600px;
     width: 100%;
+
+    animation-name: main-image-zoom;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+}
+
+#outer-main-image {
+    height: 600px;
+    width: 100%;
+    overflow: hidden;
+}
+
+@keyframes main-image-zoom {
+    from {
+        transform: scale(1);
+    }
+    to {
+        transform: scale(1.1);
+    }
 }
