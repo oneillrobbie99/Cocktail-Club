@@ -179,3 +179,25 @@ hr {
     font-size: 120%;
 }
 
+/* Link to sign up on cover */
+
+#sign-up-link {
+    font-family: Merriweather, sans-serif;
+    border-radius: 2px;
+    text-align: center;
+    font-size: 100%;
+    padding: 15px 30px 15px 30px;
+    margin-top: 30px;
+    background-color: #C22303;
+    color: #D9DCE1;
+    display: block;
+    text-decoration: none;
+}
+
+#sign-up-link:hover {
+    background-color: #D9DCE1;
+    color: #C22303;
+}
+
+
+
