@@ -226,8 +226,15 @@ footer {
 
 /* Recipe Title & Images */
 
-#recipes-title {
+#recipes-title h1 {
     text-align: center;
+    width: 100%;
+    height: 50px;
+    overflow: hidden;
+    background-color: rgba(0, 0, 0, .2);
+    padding-top: 12px;
+    font-size: 200%;
+    color: #D9DCE1
 }
 
 #espresso-martini {
@@ -311,6 +318,18 @@ footer {
 #cosmopolitan p {
     padding: 5px 0 5px 0;
     font-size: 160%;
+}
+
+/* Media Queries */
+
+/* Large to medium screens 1200px and down */
+
+@media screen and (max-width: 1200px) {
+    #about-us {
+        height: 700px;
+        width: 80%;
+        margin: 0 auto;
+    }
 }
 
 
