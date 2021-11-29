@@ -162,8 +162,8 @@ hr {
 }
 
 #times-cover {
-    width: 400px;
-    height: 400px;
+    width: 370px;
+    height: 370px;
     background-color: rgba(0, 0, 0, .8);
     padding: 40px 0 0 0;
     position: absolute;
@@ -234,7 +234,8 @@ footer {
     background-color: rgba(0, 0, 0, .2);
     padding-top: 12px;
     font-size: 200%;
-    color: #D9DCE1
+    color: #D9DCE1;
+    padding: 18px 0 0 0;
 }
 
 #espresso-martini {
@@ -327,10 +328,91 @@ footer {
 @media screen and (max-width: 1200px) {
     #about-us {
         height: 700px;
-        width: 80%;
+        width: 100%;
         margin: 0 auto;
     }
+
+    #espresso-martini, #cosmopolitan {
+        height: 550px;
+        font-size: 75%;
+    }
+
+    #espresso-martini li, #cosmopolitan li {
+        padding-left: 15px;
+    }
+
+    #espresso-martini p, #cosmopolitan p {
+        padding-left: 15px;
+    }
+
+    hr {
+        display: none;
+    }
 }
+
+/* Medium to small screens 950px and down */
+
+@media screen and (max-width: 950px) {
+    #menu {
+        clear: left;
+        float: left;
+        margin-left: 30px;
+        margin-bottom: 20px;
+        line-height: 25px;
+
+    }
+
+    #about-us {
+        height: 700px;
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    #espresso-martini, #cosmopolitan {
+        height: 550px;
+        font-size: 50%;
+    }
+
+    #espresso-martini li, #cosmopolitan li {
+        padding-left: 15px;
+    }
+
+    #espresso-martini p, #cosmopolitan p {
+        padding-left: 15px;
+    }
+
+    hr {
+        display: none;
+    }
+
+    #recipes-title h1 {
+        font-size: 140%;
+    }
+
+    #times-cover {
+        left: 0;
+    }
+
+    #about-us {
+        height: 1100px;
+        margin: 0 auto;
+    }
+
+    #about-us-left {
+        width: 90%;
+        height: 400px;
+        margin: 0 auto;
+    }
+
+    #about-us-right {
+        width: 90%;
+        height: 400px;
+        margin: 0 auto;
+    }
+
+}
+
+
 
 
 
