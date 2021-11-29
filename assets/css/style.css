@@ -93,7 +93,7 @@ h1, h2 {
 /* About us section*/
 
 #about-us {
-    height: 600px;
+    height: 480px;
 }
 
 #about-us-left {
@@ -136,4 +136,24 @@ hr {
 
 #about-us h2 {
     padding: 0 0 5px 0;
+    border-bottom: 1px solid #C22303;
 }
+
+#about-us h1 {
+    text-align: center;
+    font-size: 200%;
+    padding-top:60px;
+}
+
+/* Times Section */
+
+#times {
+    background: url(../images/pexels-chris-f-1283219.jpg) no-repeat center center;
+    height: 600px;
+    width: 100%;
+}
+
+#times-cover{
+    
+}
+
