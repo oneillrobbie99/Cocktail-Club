@@ -224,5 +224,47 @@ footer {
     color: #C22303;
 }
 
+/* Recipe Title & Images */
+
+#recipes-title {
+    text-align: center;
+}
+
+#espresso-martini {
+    overflow: hidden;
+    height: 550px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, .8);
+}
+
+#recipes-1 {
+    background: url(../images/anima-visual-qEnbyjYSDtU-unsplash.jpg) no-repeat;
+    height: 550px;
+    width: 60%;
+    overflow: hidden;
+    margin: 0; 
+    padding: 0;
+    border: none;
+    display: inline-block;
+}
+
+#cosmopolitan {
+    overflow: hidden;
+    height: 550px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, .8)
+}
+
+#recipes-2 {
+    background: url(../images/ari-agustian-m0vjCa_XwqI-unsplash.jpg) no-repeat center;
+    height: 550px;
+    width: 40%;
+    margin: 0; 
+    padding: 0;
+    border: none;
+    display: block;
+    float: right;
+}
+
 
 
