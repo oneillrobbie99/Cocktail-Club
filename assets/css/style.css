@@ -7,7 +7,52 @@
 
 }
 
+/* color:#C22303 color: #D9DCE1*/
+
 body {
+    font-family: Merriweather, sans-serif;
+    font-weight: 300;
+    color: #D9DCE1
+}
+
+/* Header & Logo */
+
+h1, h2 {
+    color:#C22303;
     font-family: Montserrat, sans-serif;
     font-weight: 400;
+    text-transform: uppercase;
+}
+
+#title {
+    float: left;
+    font-size: 250%;
+}
+
+#menu {
+    font-size: 120%;
+}
+
+#menu li {
+    float: right;
+    list-style-type: none;
+    margin-right: 40px;
+} 
+
+#menu a {
+    text-decoration: none;
+    color: #D9DCE1
+}
+
+#menu, #title {
+    line-height: 60px;
+}
+
+#menu a:hover {
+    border-bottom: 1px solid #C22303;
+    color: #C22303
+}
+
+#title:hover {
+    color: #D9DCE1;
 }
