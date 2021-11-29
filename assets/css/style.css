@@ -12,7 +12,8 @@
 body {
     font-family: Merriweather, sans-serif;
     font-weight: 300;
-    color: #D9DCE1
+    color: #D9DCE1;
+    background-color: #2F4858;
 }
 
 /* Header & Logo */
@@ -55,4 +56,8 @@ h1, h2 {
 
 #title:hover {
     color: #D9DCE1;
+}
+
+.active {
+    border-bottom: 1px solid #C22303;
 }
