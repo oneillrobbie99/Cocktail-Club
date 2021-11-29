@@ -98,25 +98,42 @@ h1, h2 {
 
 #about-us-left {
     padding-top: 20px;
-    width: 33%;
+    width: 40%;
     float: left;
-    background-color: blueviolet;
+}
+
+.about-us-left-heading {
+    float: right;
+    line-height: 25px;
+    width: 50%;
+    clear: both;
+    padding-bottom: 40px;
 }
 
 #about-us-right {
     padding-top: 20px;
-    width: 33%;
+    width: 40%;
     float: right;
-    background-color: burlywood;
+}
 
+.about-us-right-heading {
+    float: left;
+    line-height: 25px;
+    width: 50%;
+    clear: both;
+    padding-bottom: 40px;
 }
 
 #about-us-center {
     padding-top: 20px;
-    width: 33%;
     margin: 0 auto;
+    width: 20%;
 }
 
 hr {
-    padding: 12px 0 12px 0;
+    padding: 20px 0 12px 0;
+}
+
+#about-us h2 {
+    padding: 0 0 5px 0;
 }
