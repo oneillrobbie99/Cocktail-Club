@@ -412,6 +412,15 @@ footer {
 
 }
 
+/* Sign Up Page */
+
+    #sign-up-img {
+        background: url(../images/hathaipat-k-jS0CD0_Xwnw-unsplash.jpg) no-repeat center center;
+        width: 100%;
+        height: 800px;
+        overflow: hidden;
+    }
+
 
 
 
