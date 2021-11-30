@@ -415,7 +415,7 @@ footer {
 /* Sign Up Page */
 
     .sign-up-section {
-        clear: left;
+        clear: right;
         background: url(../images/hathaipat-k-jS0CD0_Xwnw-unsplash.jpg);
         height: 900px;
         background-size: cover;
@@ -451,6 +451,21 @@ footer {
         border-color: #C22303;
     }
     
+    .sign-up-button {
+        margin-top: 15px;
+        border-radius: 2px;
+        font-size: 100%;
+        padding: 15px 30px 15px 30px;
+        text-align: center;
+        background-color: #D9DCE1;
+        color: #C22303;
+        display: block;
+    }
+
+    .sign-up-button:hover {
+        background-color: #C22303;
+        color: #D9DCE1;
+    }
 
 
 
