@@ -4,7 +4,7 @@ Cocktail Club is a website for cocktail enthusiasts to come together for a 4 wee
 
 We are based in Dublin 1, only 5 minutes from the red line luas. In this class you'll learn the 'how to' and the basic science behind your favourite drinks, but you'll also make some friends along the way and have some fun! And best of all, what you make, you get to drink and share and discuss. So sign up today!
 
-![Am I Responsive Image](assets/images/Screenshot 2021-11-30 at 10.09.16.png)
+![Am I Responsive Image](assets/ images
 
 
 
