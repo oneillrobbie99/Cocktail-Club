@@ -360,7 +360,7 @@ footer {
     #menu {
         clear: left;
         float: left;
-        margin-left: 5px;
+        margin-left: 0;
         margin-bottom: 20px;
         line-height: 25px;
         width: 100%;

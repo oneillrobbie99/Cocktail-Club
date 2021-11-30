@@ -21,3 +21,7 @@ testing chrome safari firefox
 bugs when validating website + unfixed bugs
 
 -
+
+lighthouse
+
+-
